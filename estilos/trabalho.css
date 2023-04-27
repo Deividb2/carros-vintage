@@ -1,0 +1,57 @@
+.trabalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.trabalho__titulo {
+    color: #2f2e2e;
+    font-size: 34px;
+}
+
+.trabalho__linha {
+    background-color: #2f2e2e;
+    width: 50px;
+    height: 5px;
+    margin: 20px 0;
+}
+
+.trabalho__paragrafo {
+    color: #2f2e2e;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.imgs-carros {
+    display: grid;
+    grid-template-columns: repeat(3, 427px);
+    grid-auto-rows: 320px;
+}
+
+.imgs-carros1 {
+    background: url(imagens/carro1.png) no-repeat center center / cover;
+}
+
+.imgs-carros2 {
+    background: url(imagens/carro2.png) no-repeat center center / cover;
+}
+
+.imgs-carros3 {
+    background: url(imagens/carro3.png) no-repeat center center / cover;
+}
+
+.imgs-carros4 {
+    background: url(imagens/carro4.png) no-repeat center center / cover;
+}
+
+.imgs-carros5 {
+    background: url(imagens/carro5.png) no-repeat center center / cover;
+}
+
+.imgs-carros6 {
+    background: url(imagens/carro6.png) no-repeat center center / cover;
+}

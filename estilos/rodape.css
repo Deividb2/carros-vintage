@@ -1,0 +1,14 @@
+.rodape {
+    height: 30vh;
+    width: 100vw;
+    background-color: #2f2e2e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.especialistas__icon {
+    margin-right: 5px;
+}

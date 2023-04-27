@@ -1,0 +1,48 @@
+.servicos-container {
+    background: linear-gradient(to bottom, #fffdfd, #3b3939);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.servicos__titulo {
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #2f2e2e;
+}
+
+.linha {
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2f2e2e;
+    margin-bottom: 20px;
+}
+
+.servicos__align{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicos {
+    margin: 20px;
+    width: 217px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicos__paragrafo {
+    font-size: 17px;
+}
+
+.servicos__icones {
+    width: 125px;
+    height: 125px;
+}
